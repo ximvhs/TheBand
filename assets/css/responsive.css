@@ -1,0 +1,141 @@
+@media (min-width: 740px) and (max-width: 1024px) {
+    #content .content-section {
+        max-width: 100%;
+        padding: 14px 16px;
+    }
+
+    .place-buy-btn {
+      width: 100%;
+      padding: 16px;
+      font-size: 16px;
+    }
+
+    .nut-gui {
+      padding: 16px 28px;
+    }
+}
+/* mobile and ipad */
+@media (max-width: 1024px) {
+
+  .icon-footer i {
+    padding: 0 8px;
+    font-size: 28px;
+  }
+  
+  .Powered a {
+    padding: 12px 4px;
+    display: inline-block;
+  }
+
+  .address p a {
+    padding: 8px 4px;
+    display: inline-block;
+  }
+
+  .nhap-messega,
+  .nhap-name,
+  .nhap-email {
+    padding: 16px;
+  }
+}
+
+
+  /* begin mobile */
+@media (max-width: 740px) {
+  #header {
+    overflow: hidden;
+  }
+
+  #nav .subnav {
+    position: initial;
+  }
+
+  #nav,
+  #nav > li,
+  #nav li,
+  #nav li a {
+    display: block;
+  }
+
+  #nav .subnav a {
+    padding: 5px 40px;
+    background-color: black;
+    color: #fff;
+  }
+
+  #nav > li:first-child {
+    /* display: inline-block; */
+    width: 70%;
+  }
+    
+  #header .search {
+    display: none;
+  }
+
+  #header .menu {
+    display: block;
+    font-size: 15px;
+    float: right;
+    color: #fff;
+    line-height: 47px;
+    padding: 0 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+   #header .menu:hover {
+    color: #333;
+    background-color: #ccc;
+  }
+
+
+  #content .content-section {
+    max-width: 100%;
+    padding: 14px 16px;
+  }
+
+  .tour-section {
+    height: 1750px;
+  }
+
+  #content .member-item {
+    width: 100%;
+  }
+
+  #content .member-name {
+    margin: 16px 0 -12px 0;
+  }
+    
+  .place-item {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .place-buy-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .places-list {
+      margin-top: 8px;
+  }
+
+  .address,
+  .nhap-name,
+  .nhap-email,
+  .nhap-data {
+    width: 100%;
+  }
+
+  .nut-gui {
+    width: 100%;
+    padding: 16px;
+  }
+
+    
+  .nhap-email {
+    margin: 0 0 12px 0;
+  }
+  /* end mobile */
