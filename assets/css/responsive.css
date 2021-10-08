@@ -89,14 +89,9 @@
     background-color: #ccc;
   }
 
-
   #content .content-section {
     max-width: 100%;
     padding: 14px 16px;
-  }
-
-  .tour-section {
-    height: 1750px;
   }
 
   #content .member-item {
