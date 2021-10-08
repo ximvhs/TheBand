@@ -1,4 +1,4 @@
-@media (min-width: 740px) and (max-width: 1024px) {
+@media (min-width: 46.25em) and (max-width: 64em) {
     #content .content-section {
         max-width: 100%;
         padding: 14px 16px;
@@ -15,7 +15,7 @@
     }
 }
 /* mobile and ipad */
-@media (max-width: 1024px) {
+@media (max-width: 64em) {
 
   .icon-footer i {
     padding: 0 8px;
@@ -41,7 +41,7 @@
 
 
   /* begin mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
   #header {
     overflow: hidden;
   }
