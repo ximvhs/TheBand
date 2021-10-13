@@ -5,8 +5,10 @@
 }
  
 html {
+  /* font chữ */
   font-family: Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
+  /* thao tác cuộn trên web */
+  scroll-behavior: smooth; 
 }
  
 .clear {
@@ -257,6 +259,7 @@ html {
 }
  
 .place-buy-btn {
+  width: 100%;
   padding: 10px 12px;
   text-decoration: none;
   color: white;
@@ -445,7 +448,7 @@ html {
 }
 
 #footer {
-  padding: 80px 0 40px 0;
+  padding: 40px 0 18px 0;
   text-align: center;
 }
 
